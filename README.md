@@ -1,12 +1,12 @@
 # PART-ONE-PEO# Isinkwa Bakery - Website Project
 
 ## Student Information
-- **Student Name:** [Your Full Name]
-- **Student Number:** [Your Student Number]
+- **Student Name:** [Xola Mashudu Mutheiwan]
+- **Student Number:** [ST10485117]
 - **Group:** [Your Group]
 - **Subject:** Web Development
-- **Subject Code:** [Subject Code]
-- **Institution:** The Independent Institute of Education (Pty) Ltd 2026
+- **Subject Code:** [WEDE5020]
+- **Institution:** Rosebank College International
 
 ---
 
