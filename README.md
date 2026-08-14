@@ -484,10 +484,10 @@ Ensure the following files are present:
 
 ### Student Contact
 
-- **Name:** [Your Full Name]
-- **Student Number:** [Your Student Number]
-- **Email:** [Your Email]
-- **Phone:** [Your Phone Number]
+- **Name:** [Xola Mashudu Mutheiwana]
+- **Student Number:** [ST10485117]
+- **Email:** [mutheiwanaxola@gmail.com]
+- **Phone:** [068 738 1882]
 
 ### Lecturer Contact
 
