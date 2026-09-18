@@ -278,9 +278,9 @@ isinkwa-bakery/
 
 ## Changelog
 
-### Version 1.0.0 - [Date]
+### Version 1.0.0 - [18 September]
 
-**Initial Release**
+**Initial Release** 18 September 2026
 
 **Added:**
 - ✅ Complete HTML structure for all 5 pages
@@ -304,7 +304,7 @@ isinkwa-bakery/
 - Placeholder images used
 - Maps not yet embedded
 
-### Version 1.0.1 - [Date]
+### Version 1.0.1 - [18 September]
 
 **Pending Updates:**
 - ⬜ Add CSS styling
@@ -389,20 +389,20 @@ This document follows the Harvard referencing style for all cited sources.
 
 | Detail | Information |
 |--------|-------------|
-| **Repository Name** | [Your Repository Name] |
-| **Repository URL** | [Your Repository URL] |
-| **Visibility** | Private |
+| **Repository Name** | [ST10485117 PART TWO] |
+| **Repository URL** | [https://github.com/ST10485117/PART-TWO-PEO/edit/main/README.md] |
+| **Visibility** | Public |
 | **Branch** | main |
 
 ### Commit History
 
 | Date | Commit Message | Files Changed |
 |------|----------------|---------------|
-| [Date] | Initial commit - Created project structure | README.md |
+| [18 September] | Initial commit - Created project structure | README.md |
 | [Date] | Added HTML structure for all pages | index.html, about.html, products.html, enquiry.html, contact.html |
 | [Date] | Added navigation menu and footer | All HTML files |
 | [Date] | Added content and images | All HTML files, images/ |
-| [Date] | Updated README documentation | README.md |
+| [18 September] | Updated README documentation | README.md |
 
 ---
 
