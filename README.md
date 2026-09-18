@@ -276,256 +276,170 @@ isinkwa-bakery/
 
 ---
 
-## Changelog
+ Changelog
 
-### Version 1.0.0 - [Date]
+ Version 2.0.0 - [18 September]
+Part 2 Update - CSS Styling and Responsive Design
 
-**Initial Release**
+Added:
+- ✅ Comprehensive external stylesheet (`css/style.css`) linked to all pages.
+- ✅ CSS Reset to ensure consistent styling across browsers.
+- ✅ Global CSS variables (`:root`) for the bakery colour scheme (SaddleBrown, Tan, Gold) and typography.
+- ✅ Typography scale using relative units (`rem`) for font sizes and spacing.
+- ✅ Responsive layout structure using CSS Grid and Flexbox.
+- ✅ Sticky header navigation with active page highlighting.
+- ✅ Hover pseudo-classes on navigation links, buttons, cards, and table rows.
+- ✅ Focus pseudo-classes on form inputs for better accessibility.
+- ✅ Box-shadow and border-radius decorations for a modern, card-based layout.
+- ✅ Media Queries at `992px` and `768px` breakpoints.
+- ✅ Mobile hamburger menu toggle styling.
+- ✅ Responsive single-column layouts for mobile devices.
 
-**Added:**
+Changed (Based on Part 1 Feedback):
+- Changelog Updated: Added this detailed changelog section as requested in Part 1 feedback to document all changes made.
+- Images Linked Correctly: Updated broken HTML image tags (e.g., removed incorrect `<src>` tags from `<img>` placeholders) to ensure images load correctly in the responsive layout.
+- File Naming: Standardised page naming from `products.html` to `menu.html` for better clarity and consistency with navigation links.
+- CSS File Location: Ensured the `style.css` is in its own `css/` folder and linked correctly from all HTML files (removed internal `<style>` blocks from `enquiry.html` and `menu.html`).
+- Navigation Structure: Ensured the navigation menu is fully responsive and collapses into a hamburger menu on mobile devices.
+
+Known Issues:
+- JavaScript for mobile menu toggle not yet implemented (Phase 5).
+- Some placeholder images may need final replacement.
+- Cross-browser testing not yet completed.
+
+ Version 1.0.0 - [Part 1 Date]
+Initial Release
+
+Added:
 - ✅ Complete HTML structure for all 5 pages
 - ✅ Navigation menu with active page highlighting
 - ✅ Hero section on homepage
 - ✅ Featured products section
-- ✅ About Us page with story, mission, vision, values, team
-- ✅ Products page with categories and product cards
+- ✅ About Us page with story, mission, vision, values, founder
+- ✅ Menu page with categories and product cards
 - ✅ Enquiry page with form and contact sidebar
 - ✅ Contact page with two locations and maps
 - ✅ Footer with social media links
 - ✅ Font Awesome icons integration
-- ✅ Google Fonts integration (Playfair Display, Lato)
 - ✅ Semantic HTML5 elements
 - ✅ HTML comments for code documentation
 - ✅ Proper indentation and formatting
 
-**Known Issues:**
-- CSS styling not yet applied
-- JavaScript functionality not yet implemented
-- Placeholder images used
-- Maps not yet embedded
 
-### Version 1.0.1 - [Date]
 
-**Pending Updates:**
-- ⬜ Add CSS styling
-- ⬜ Add responsive design
-- ⬜ Add JavaScript for mobile menu
-- ⬜ Add form validation
-- ⬜ Add actual product images
-- ⬜ Embed Google Maps
-- ⬜ Test cross-browser compatibility
-- ⬜ Deploy to hosting
+ References
 
----
-
-## References
-
-### Content Sources
-
+ Content Sources
 | Source | Description |
 |--------|-------------|
-| **Original Content** | All bakery information, product descriptions, mission and vision statements, team bios, and organisational history are original creations for this project |
-| **Traditional Recipes** | South African baking traditions documented from cultural knowledge and research |
-| **Industry Research** | Bakery industry standards and best practices researched online |
+| Original Content | All bakery information, product descriptions, mission and vision statements, team bios, and organisational history are original creations for this project |
+| Traditional Recipes | South African baking traditions documented from cultural knowledge and research |
+| Industry Research | Bakery industry standards and best practices researched online |
 
-### Image Sources
-
+ Image Sources
 | Source | Description |
 |--------|-------------|
 | [Unsplash](https://unsplash.com) | Free high-quality stock images for bakery products and related photography |
 | [Pexels](https://pexels.com) | Free stock photos and videos |
 | [Canva](https://canva.com) | Logo design and graphic elements |
 | [Google Maps](https://maps.google.com) | Location maps and screenshots |
-| Original Photography | Product photos created specifically for this project |
 
-### Fonts
-
+ Fonts and Icons
 | Source | Description |
 |--------|-------------|
 | [Google Fonts - Playfair Display](https://fonts.google.com/specimen/Playfair+Display) | Serif font for headings - elegant and warm |
 | [Google Fonts - Lato](https://fonts.google.com/specimen/Lato) | Sans-serif font for body text - clean and readable |
-
-### Icons
-
-| Source | Description |
-|--------|-------------|
 | [Font Awesome](https://fontawesome.com) | Icon library for social media, contact info, and UI elements |
 
-### Technical References
-
+ Technical References (Part 2 Additions)
 | Source | Description |
 |--------|-------------|
-| [MDN Web Docs](https://developer.mozilla.org) | HTML, CSS, JavaScript documentation |
-| [W3Schools](https://www.w3schools.com) | Tutorials and reference guides |
-| [CSS-Tricks](https://css-tricks.com) | CSS tips and techniques |
-| [HTML5 Doctor](http://html5doctor.com) | Semantic HTML elements |
-| [Can I Use](https://caniuse.com) | Browser compatibility reference |
+| [MDN Web Docs - CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) | Comprehensive guide to CSS Grid used for layout structure |
+| [MDN Web Docs - Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) | Reference for responsive design implementation |
+| [CSS-Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) | Practical examples of CSS Grid usage |
+| [W3Schools - CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp) | Reference for hover and focus pseudo-classes |
+| [Can I Use](https://caniuse.com) | Browser compatibility reference for CSS properties |
+| [CSS Reset - Josh Comeau](https://www.joshwcomeau.com/css/custom-css-reset/) | Modern CSS reset for consistent cross-browser styling |
 
-### Educational Sources
-
+ Educational Sources
 | Source | Description |
 |--------|-------------|
 | The Independent Institute of Education (Pty) Ltd 2026 | Course materials and lecture notes |
 | Web Development Lecture Notes | In-class presentations and notes |
 | Assignment Brief | Project requirements and guidelines |
 
-### Referencing Style
-
+ Referencing Style
 This document follows the Harvard referencing style for all cited sources.
 
-**Example References:**
+Example References:
 
-> Google Fonts. (2026). *Playfair Display*. [online] Available at: https://fonts.google.com/specimen/Playfair+Display [Accessed 13 Aug. 2026].
+> Google Fonts. (2026). Playfair Display. [online] Available at: https://fonts.google.com/specimen/Playfair+Display [Accessed 13 Aug. 2026].
 
-> MDN Web Docs. (2026). *HTML: HyperText Markup Language*. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 13 Aug. 2026].
+> MDN Web Docs. (2026). CSS Grid Layout. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout [Accessed 15 Sep. 2026].
 
-> The Independent Institute of Education (Pty) Ltd. (2026). *Web Development Course Materials*. [Lecture Notes] IIE, Durban.
+> The Independent Institute of Education (Pty) Ltd. (2026). Web Development Course Materials. [Lecture Notes] IIE, Durban.
 
----
 
-## Repository Information
 
-### GitHub Repository
+ Repository Information
 
+ GitHub Repository
 | Detail | Information |
 |--------|-------------|
-| **Repository Name** | [Your Repository Name] |
-| **Repository URL** | [Your Repository URL] |
-| **Visibility** | Private |
-| **Branch** | main |
+| Repository Name | [Your Repository Name] |
+| Repository URL | [Your Repository URL] |
+| Visibility | Private |
+| Branch | main |
 
-### Commit History
-
+ Commit History (Part 2 Additions)
 | Date | Commit Message | Files Changed |
 |------|----------------|---------------|
 | [Date] | Initial commit - Created project structure | README.md |
-| [Date] | Added HTML structure for all pages | index.html, about.html, products.html, enquiry.html, contact.html |
+| [Date] | Added HTML structure for all pages | index.html, about.html, menu.html, enquiry.html, contact.html |
 | [Date] | Added navigation menu and footer | All HTML files |
 | [Date] | Added content and images | All HTML files, images/ |
-| [Date] | Updated README documentation | README.md |
+| [Date] | Created external CSS stylesheet | `css/style.css` |
+| [Date] | Implemented responsive design and media queries | `css/style.css` |
+| [Date] | Linked CSS to all HTML pages | All HTML files |
+| [Date] | Updated README with Changelog and References | `README.md` |
 
 ---
 
-## Setup and Installation
+ Setup and Installation
 
-### Prerequisites
-
+ Prerequisites
 | Requirement | Version |
 |-------------|---------|
 | Web Browser | Modern (Chrome, Firefox, Safari, Edge) |
 | Code Editor | Visual Studio Code (recommended) |
 | Git | Latest version |
 
-### Local Setup
-
-1. **Clone the Repository**
-   ```bash
+ Local Setup
+1. Clone the Repository
+   
    git clone [your-repository-url]
-   ```
 
-2. **Navigate to Project Directory**
-   ```bash
-   cd isinkwa-bakery
-   ```
+   screenshots
+   
 
-3. **Open in Browser**
-   - Open `index.html` in your web browser
-   - Or use Live Server extension in VS Code
+ Responsive Design Evidence (Screenshots)
 
-### File Verification
+As required by the Part 2 rubric (Section 3.4 - Test and Iterate), the following screenshots provide visual evidence of the website's responsive behaviour across different screen sizes and devices.
 
-Ensure the following files are present:
+ 1. Desktop View (1920 x 1080)
+*The website displays a multi-column layout with a horizontal navigation bar, side-by-side content, and full-width imagery.*
 
-```
-✅ index.html
-✅ about.html
-✅ products.html
-✅ enquiry.html
-✅ contact.html
-✅ README.md
-✅ css/style.css
-✅ js/script.js
-✅ images/ (folder with images)
-```
+![Desktop View](images/screenshots/desktop-view.png)
 
----
+ 2. Tablet View (820 x 1180)
+*The layout adjusts gracefully. The navigation remains horizontal, but content grids reflow to fit the smaller screen, maintaining readability.*
 
-## Testing Information
+![Tablet View](images/screenshots/tablet-view.png)
 
-### Browser Compatibility
+ 3. Mobile View (390 x 844)
+*The website switches to a single-column layout. The navigation menu collapses into a hamburger icon, and font sizes are scaled down for optimal mobile viewing.*
 
-| Browser | Version | Status |
-|---------|---------|--------|
-| Google Chrome | Latest | ⬜ Pending |
-| Mozilla Firefox | Latest | ⬜ Pending |
-| Safari | Latest | ⬜ Pending |
-| Microsoft Edge | Latest | ⬜ Pending |
+![Mobile View](images/screenshots/mobile-view.png)
 
-### Device Testing
 
-| Device | Status |
-|--------|--------|
-| Desktop | ⬜ Pending |
-| Tablet | ⬜ Pending |
-| Mobile | ⬜ Pending |
-
-### Validation
-
-| Validation Type | Status |
-|-----------------|--------|
-| HTML Validation | ⬜ Pending |
-| CSS Validation | ⬜ Pending |
-| Accessibility Testing | ⬜ Pending |
-| Link Checking | ⬜ Pending |
-
----
-
-## Contact Information
-
-### Student Contact
-
-- **Name:** [Xola Mashudu Mutheiwana]
-- **Student Number:** [ST10485117]
-- **Email:** [mutheiwanaxola@gmail.com]
-- **Phone:** [068 738 1882]
-
-### Lecturer Contact
-
-- **Name:** [Lecturer Name]
-- **Email:** [Lecturer Email]
-
-### Organisation Contact
-
-- **Isinkwa Bakery**
-- **Address:** 45 Florida Road, Morningside, Durban, 4001
-- **Phone:** 031 123 4567
-- **Email:** info@isinkwabakery.co.za
-
----
-
-## Acknowledgments
-
-- **The Independent Institute of Education (Pty) Ltd 2026** - Academic guidance and support
-- **Lecturers and Tutors** - Knowledge and feedback throughout the project
-- **Classmates** - Peer support and collaboration
-- **Font Awesome and Google Fonts** - Free resources for icons and typography
-
----
-
-## Disclaimer
-
-This website and all its content are created for educational purposes as part of a student project. Isinkwa Bakery is a hypothetical organisation created for this assignment. All product information, prices, and content are fictional and intended for demonstration purposes only.
-
----
-
-## Copyright
-
-© 2026 Isinkwa Bakery. All rights reserved.
-
----
-
-*This document was last updated on [Date]*
-
----
-
-### End of README.md
+   
