@@ -515,8 +515,8 @@ Ensure the following files are present:
 # Isinkwa Bakery Website (WEDE5020 - Part 3 POE)
 
 Student: ST10485117 | Module: WEDE5020
-Live site: https://your-username.github.io/isinkwa-bakery/ (replace after deploying)
-Repository: https://github.com/your-username/isinkwa-bakery (replace with your link)
+Live site: https://ST10485117.github.io/isinkwa-bakery/
+Repository: https://github.com/ST10485117/isinkwa-bakery 
 
 ## Pages
 index.html (Home), about.html, menu.html, enquiry.html, contact.html
